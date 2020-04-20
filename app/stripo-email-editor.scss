@@ -1,0 +1,17 @@
+.full-edit-wrapper {
+    // min-height: 100px;
+    // height: calc(100vh - 120px); // adjust for toolbar 56px + menu 64px; doesn't work on ipad -- toolbar gets hidden
+    // height: 100%;
+    // min-height: 0px;
+    overflow-y: auto;
+    // height: calc(100vh - 120px);
+}
+
+// bottom spacer required when left / right panels collapse vertically 
+.full-edit-left-panel {
+    margin-bottom: 12px;
+}
+
+.full-edit-right-panel {
+    margin-bottom: 12px;
+}

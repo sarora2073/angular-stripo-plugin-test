@@ -5,7 +5,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { tap, take, flatMap } from 'rxjs/operators';
 import { StripoAuthService } from './stripo-auth.service'; 
-import * as Stripo from '../assets/stripo.js';
+import * as StripoLib from '../assets/stripo.js';
 
 declare var window: any;
 
